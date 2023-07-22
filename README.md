@@ -10,10 +10,14 @@ back end : node js , express , nodemon ,cros , email-validator , bcyrpt , cookie
 	 git clone git@github.com:omkeshborse/user-authentication-system.git 
 
 cd user-authentication-system 
+
 cd backend 
+
 npm  install 
  
+
 cd client 
+
 npm install 
 	
  
@@ -21,7 +25,7 @@ npm install
 
 in backend folder  : 
 create  .env   file  
-then add in .env  : 
+then add following in .env   : 
 
 	PORT=8081
 	MONGODB_URL= mogoDB connection String (without quoted ) / mongodb atlas connetion string 
